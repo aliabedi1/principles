@@ -1,29 +1,29 @@
 {
-    "name": "aliabedi1/principles",
-    "description": "Collection of reusable Laravel and PHP services, helpers and features.",
-    "type": "library",
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "AliAbedi\\Principles\\": "src/"
-        }
-    },
-    "minimum-stability": "stable",
-    "prefer-stable": true,
-    "require": {
-        "php": "^8.2",
-        "illuminate/support": "^11.0|^12.0",
-        "spatie/laravel-package-tools": "^1.93"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^10.11",
-        "fruitcake/laravel-debugbar": "^4.3"
-    },
-    "extra": {
-    "laravel": {
-        "providers": [
-            "AliAbedi\\Principles\\PrinciplesServiceProvider"
-        ]
+  "name": "aliabedi1/principles",
+  "description": "Collection of reusable Laravel and PHP services, helpers and features.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AliAbedi\\Principles\\": "src/"
     }
-}
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "require": {
+    "php": "^8.2",
+    "illuminate/support": "^11.0|^12.0",
+    "spatie/laravel-package-tools": "^1.93"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^10.11",
+    "fruitcake/laravel-debugbar": "^4.3"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AliAbedi\\Principles\\PrinciplesServiceProvider"
+      ]
+    }
+  }
 }
