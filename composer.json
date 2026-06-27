@@ -1,0 +1,13 @@
+{
+    "name": "aliabedi1/principles",
+    "description": "Collection of reusable Laravel and PHP services, helpers and features.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AliAbedi\\Principles\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
