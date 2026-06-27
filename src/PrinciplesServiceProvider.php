@@ -14,6 +14,8 @@ class PrinciplesServiceProvider extends PackageServiceProvider
 
     public function configurePackage(Package $package): void
     {
-        $package->name('principles');
+        $package
+            ->name('principles')
+            ->hasConfigFile();
     }
 }
