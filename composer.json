@@ -18,5 +18,12 @@
     "require-dev": {
         "orchestra/testbench": "^10.11",
         "fruitcake/laravel-debugbar": "^4.3"
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "AliAbedi\\Principles\\PrinciplesServiceProvider"
+        ]
     }
+}
 }
